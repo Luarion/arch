@@ -1,0 +1,1 @@
+# This file will initialize Hyprland in a custom way

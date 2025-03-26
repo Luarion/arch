@@ -1,0 +1,1 @@
+# This script will be executed on the first CLI login

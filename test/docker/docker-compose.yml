@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  arch-ssh:
+    image: arch-ssh
+    container_name: uwu
+    volumes:
+      - "C:/Users/Admin/Documents/Code/arch/src:/script"
+    restart: unless-stopped

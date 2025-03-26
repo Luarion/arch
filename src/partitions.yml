@@ -1,0 +1,8 @@
+boot:
+  size: 1000
+
+swap:
+  size: 8000
+
+root:
+  size: rest

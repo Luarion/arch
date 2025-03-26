@@ -1,0 +1,56 @@
+{
+  "pacstrap": [
+    {
+      "name": "Kernels",
+      "packages": ["linux", "linux-firmware", "linux-headers"],
+      "install": true
+    },
+    {
+      "name": "Base",
+      "packages": ["base", "base-devel"],
+      "install": true
+    }
+  ],
+
+  "pacman": [
+    {
+      "name": "System",
+      "packages": ["sudo"],
+      "install": true
+    },
+    {
+      "name": "Text Editors",
+      "packages": ["nano", "vim", "code"],
+      "install": true
+    },
+    {
+      "name": "Resource Monitors",
+      "packages": ["htop"]
+    },
+    {
+      "name": "Networking",
+      "packages": ["networkmanager", "openssh", "nmap"],
+      "install": true
+    },
+    {
+      "name": "Utilities",
+      "packages": ["tmux"],
+      "install": true
+    },
+    {
+      "name": "Browsers",
+      "packages": ["firefox"],
+      "install": true
+    },
+    {
+      "name": "Hyprland",
+      "packages": ["hyprland", "kitty", "waybar", "wofi", "hyprpaper"],
+      "install": true
+    },
+    {
+      "name": "Ricing",
+      "packages": ["cava", "cmatrix", "btop"],
+      "install": true
+    }
+  ]
+}
